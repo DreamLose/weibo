@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="2dm-CK-U1n">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--消息-->
         <scene sceneID="idO-HX-TYp">
             <objects>
-                <tableViewController id="adY-Fe-hvq" sceneMemberID="viewController">
+                <tableViewController id="adY-Fe-hvq" customClass="MessageViewController" customModule="weibo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Ke9-8I-vqG">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <connections>
@@ -18,7 +20,7 @@
                             <outlet property="delegate" destination="adY-Fe-hvq" id="N9p-sF-Lej"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="lyC-zN-c6G"/>
+                    <navigationItem key="navigationItem" title="消息" id="lyC-zN-c6G"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ypA-rR-QbS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

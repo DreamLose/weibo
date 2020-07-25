@@ -15,6 +15,13 @@
 		44D22DD224CAE66800EA7D0A /* Message.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DD124CAE66800EA7D0A /* Message.storyboard */; };
 		44D22DD524CAE68C00EA7D0A /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DD324CAE68C00EA7D0A /* Discovery.storyboard */; };
 		44D22DD724CAE6A000EA7D0A /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DD624CAE6A000EA7D0A /* Profile.storyboard */; };
+		44D22DD924CAE76100EA7D0A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DD824CAE76100EA7D0A /* HomeViewController.swift */; };
+		44D22DDB24CAE77200EA7D0A /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DDA24CAE77200EA7D0A /* DiscoveryViewController.swift */; };
+		44D22DDD24CAE77C00EA7D0A /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DDC24CAE77C00EA7D0A /* MessageViewController.swift */; };
+		44D22DDF24CAE78E00EA7D0A /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DDE24CAE78E00EA7D0A /* ProfileViewController.swift */; };
+		44D22DE324CAEBC200EA7D0A /* UIButton-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */; };
+		44D22DE524CAEC1E00EA7D0A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DE424CAEC1E00EA7D0A /* MainController.swift */; };
+		44D22DE924CAECB700EA7D0A /* AddWB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DE724CAECB700EA7D0A /* AddWB.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +35,13 @@
 		44D22DD124CAE66800EA7D0A /* Message.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Message.storyboard; sourceTree = "<group>"; };
 		44D22DD424CAE68C00EA7D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = weibo/Base.lproj/Discovery.storyboard; sourceTree = "<group>"; };
 		44D22DD624CAE6A000EA7D0A /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		44D22DD824CAE76100EA7D0A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44D22DDA24CAE77200EA7D0A /* DiscoveryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		44D22DDC24CAE77C00EA7D0A /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		44D22DDE24CAE78E00EA7D0A /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extention.swift"; sourceTree = "<group>"; };
+		44D22DE424CAEC1E00EA7D0A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		44D22DE824CAECB700EA7D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = weibo/Base.lproj/AddWB.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,8 @@
 		44D22DB924CAE43800EA7D0A /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DE624CAEC7100EA7D0A /* AddWB */,
+				44D22DE024CAEB3800EA7D0A /* Tools */,
 				44D22DBA24CAE43800EA7D0A /* Home */,
 				44D22DBE24CAE43800EA7D0A /* Discovery */,
 				44D22DC224CAE43800EA7D0A /* Message */,
@@ -96,6 +112,7 @@
 		44D22DBB24CAE43800EA7D0A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DD824CAE76100EA7D0A /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,6 +145,7 @@
 		44D22DBF24CAE43800EA7D0A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DDA24CAE77200EA7D0A /* DiscoveryViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -160,6 +178,7 @@
 		44D22DC324CAE43800EA7D0A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DDC24CAE77C00EA7D0A /* MessageViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -192,6 +211,7 @@
 		44D22DC724CAE43800EA7D0A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DDE24CAE78E00EA7D0A /* ProfileViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +243,7 @@
 		44D22DCB24CAE43800EA7D0A /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DE424CAEC1E00EA7D0A /* MainController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -239,6 +260,30 @@
 			children = (
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		44D22DE024CAEB3800EA7D0A /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				44D22DE124CAEB5700EA7D0A /* Category */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		44D22DE124CAEB5700EA7D0A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		44D22DE624CAEC7100EA7D0A /* AddWB */ = {
+			isa = PBXGroup;
+			children = (
+				44D22DE724CAECB700EA7D0A /* AddWB.storyboard */,
+			);
+			path = AddWB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +345,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44D22DB224CAE19E00EA7D0A /* LaunchScreen.storyboard in Resources */,
+				44D22DE924CAECB700EA7D0A /* AddWB.storyboard in Resources */,
 				44D22DAF24CAE19E00EA7D0A /* Assets.xcassets in Resources */,
 				44D22DD224CAE66800EA7D0A /* Message.storyboard in Resources */,
 				44D22DAD24CAE19B00EA7D0A /* Main.storyboard in Resources */,
@@ -316,7 +362,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D22DE324CAEBC200EA7D0A /* UIButton-Extention.swift in Sources */,
+				44D22DE524CAEC1E00EA7D0A /* MainController.swift in Sources */,
 				44D22DA624CAE19B00EA7D0A /* AppDelegate.swift in Sources */,
+				44D22DDB24CAE77200EA7D0A /* DiscoveryViewController.swift in Sources */,
+				44D22DDF24CAE78E00EA7D0A /* ProfileViewController.swift in Sources */,
+				44D22DDD24CAE77C00EA7D0A /* MessageViewController.swift in Sources */,
+				44D22DD924CAE76100EA7D0A /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +405,14 @@
 				44D22DD424CAE68C00EA7D0A /* Base */,
 			);
 			name = Discovery.storyboard;
+			sourceTree = "<group>";
+		};
+		44D22DE724CAECB700EA7D0A /* AddWB.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44D22DE824CAECB700EA7D0A /* Base */,
+			);
+			name = AddWB.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

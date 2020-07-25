@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Nxs-3z-lbX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -24,12 +26,12 @@
             </objects>
             <point key="canvasLocation" x="-351" y="-525"/>
         </scene>
-        <!--Table View Controller-->
+        <!--首页-->
         <scene sceneID="D4x-pp-yWn">
             <objects>
-                <tableViewController id="Tkx-9M-40E" sceneMemberID="viewController">
+                <tableViewController id="Tkx-9M-40E" customClass="HomeViewController" customModule="weibo" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Xui-dL-aai">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <connections>
@@ -37,7 +39,7 @@
                             <outlet property="delegate" destination="Tkx-9M-40E" id="rbp-rt-zlf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="b6W-zv-zyL"/>
+                    <navigationItem key="navigationItem" title="首页" id="b6W-zv-zyL" customClass="Home"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="w1o-m5-EfW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
