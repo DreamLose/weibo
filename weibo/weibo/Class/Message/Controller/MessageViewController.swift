@@ -8,11 +8,11 @@
 
 import UIKit
 
-class MessageViewController: UITableViewController {
+class MessageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        visitorView.setUpVisitorViewInfo(iconName: "visitordiscover_image_message", title: "登录后,别人评论你的微博,给你发消息,都会在这里收到通知")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 

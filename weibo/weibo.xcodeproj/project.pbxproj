@@ -22,6 +22,15 @@
 		44D22DE324CAEBC200EA7D0A /* UIButton-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */; };
 		44D22DE524CAEC1E00EA7D0A /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DE424CAEC1E00EA7D0A /* MainController.swift */; };
 		44D22DE924CAECB700EA7D0A /* AddWB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DE724CAECB700EA7D0A /* AddWB.storyboard */; };
+		44D22DEB24CC279E00EA7D0A /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DEA24CC279E00EA7D0A /* BaseViewController.swift */; };
+		44D22DED24CC297A00EA7D0A /* VisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DEC24CC297A00EA7D0A /* VisitorView.swift */; };
+		44D22DEF24CC298500EA7D0A /* VisitorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DEE24CC298500EA7D0A /* VisitorView.xib */; };
+		44D22DF124CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DF024CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift */; };
+		44D22DF324CD110C00EA7D0A /* TitleBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DF224CD110C00EA7D0A /* TitleBtn.swift */; };
+		44D22DF824CD151F00EA7D0A /* PoperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DF624CD151F00EA7D0A /* PoperViewController.swift */; };
+		44D22DF924CD151F00EA7D0A /* PoperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DF724CD151F00EA7D0A /* PoperViewController.xib */; };
+		44D22DFB24CD1CA700EA7D0A /* PresentationContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DFA24CD1CA700EA7D0A /* PresentationContrller.swift */; };
+		44D22DFD24CD290400EA7D0A /* PoperAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +51,15 @@
 		44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton-Extention.swift"; sourceTree = "<group>"; };
 		44D22DE424CAEC1E00EA7D0A /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
 		44D22DE824CAECB700EA7D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = weibo/Base.lproj/AddWB.storyboard; sourceTree = "<group>"; };
+		44D22DEA24CC279E00EA7D0A /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		44D22DEC24CC297A00EA7D0A /* VisitorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorView.swift; sourceTree = "<group>"; };
+		44D22DEE24CC298500EA7D0A /* VisitorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VisitorView.xib; sourceTree = "<group>"; };
+		44D22DF024CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem-Extention.swift"; sourceTree = "<group>"; };
+		44D22DF224CD110C00EA7D0A /* TitleBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleBtn.swift; sourceTree = "<group>"; };
+		44D22DF624CD151F00EA7D0A /* PoperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoperViewController.swift; sourceTree = "<group>"; };
+		44D22DF724CD151F00EA7D0A /* PoperViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoperViewController.xib; sourceTree = "<group>"; };
+		44D22DFA24CD1CA700EA7D0A /* PresentationContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContrller.swift; sourceTree = "<group>"; };
+		44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoperAnimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +131,9 @@
 			isa = PBXGroup;
 			children = (
 				44D22DD824CAE76100EA7D0A /* HomeViewController.swift */,
+				44D22DF624CD151F00EA7D0A /* PoperViewController.swift */,
+				44D22DF724CD151F00EA7D0A /* PoperViewController.xib */,
+				44D22DFA24CD1CA700EA7D0A /* PresentationContrller.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -127,6 +148,7 @@
 		44D22DBD24CAE43800EA7D0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -244,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				44D22DE424CAEC1E00EA7D0A /* MainController.swift */,
+				44D22DEA24CC279E00EA7D0A /* BaseViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +281,8 @@
 		44D22DCD24CAE43800EA7D0A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				44D22DEC24CC297A00EA7D0A /* VisitorView.swift */,
+				44D22DEE24CC298500EA7D0A /* VisitorView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -274,6 +299,8 @@
 			isa = PBXGroup;
 			children = (
 				44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */,
+				44D22DF024CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift */,
+				44D22DF224CD110C00EA7D0A /* TitleBtn.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -352,6 +379,8 @@
 				44D22DD024CAE63A00EA7D0A /* Home.storyboard in Resources */,
 				44D22DD724CAE6A000EA7D0A /* Profile.storyboard in Resources */,
 				44D22DD524CAE68C00EA7D0A /* Discovery.storyboard in Resources */,
+				44D22DEF24CC298500EA7D0A /* VisitorView.xib in Resources */,
+				44D22DF924CD151F00EA7D0A /* PoperViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,13 +391,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D22DF324CD110C00EA7D0A /* TitleBtn.swift in Sources */,
 				44D22DE324CAEBC200EA7D0A /* UIButton-Extention.swift in Sources */,
 				44D22DE524CAEC1E00EA7D0A /* MainController.swift in Sources */,
 				44D22DA624CAE19B00EA7D0A /* AppDelegate.swift in Sources */,
 				44D22DDB24CAE77200EA7D0A /* DiscoveryViewController.swift in Sources */,
 				44D22DDF24CAE78E00EA7D0A /* ProfileViewController.swift in Sources */,
+				44D22DEB24CC279E00EA7D0A /* BaseViewController.swift in Sources */,
+				44D22DED24CC297A00EA7D0A /* VisitorView.swift in Sources */,
 				44D22DDD24CAE77C00EA7D0A /* MessageViewController.swift in Sources */,
+				44D22DFD24CD290400EA7D0A /* PoperAnimator.swift in Sources */,
+				44D22DFB24CD1CA700EA7D0A /* PresentationContrller.swift in Sources */,
+				44D22DF824CD151F00EA7D0A /* PoperViewController.swift in Sources */,
 				44D22DD924CAE76100EA7D0A /* HomeViewController.swift in Sources */,
+				44D22DF124CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
