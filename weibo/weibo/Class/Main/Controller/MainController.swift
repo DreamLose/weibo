@@ -9,7 +9,6 @@
 import UIKit
 
 class MainController: UITabBarController {
-//    fileprivate lazy var composeBtn : UIButton = UIButton.creatBtutton(image: "tabbar_compose_icon_add", bgImageName: "tabbar_compose_button")
     fileprivate lazy var composeBtn : UIButton = UIButton(image: "tabbar_compose_icon_add", bgImageName: "tabbar_compose_button")
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -12,7 +12,7 @@ class BaseViewController: UITableViewController {
     //MARK: ------- 懒加载属性
     lazy var visitorView : VisitorView = VisitorView.visitorView()
     //MARK: ------- 设置登录状态
-       var isLogin : Bool = true
+    var isLogin : Bool = UserAccountViewModel.sharIntance.isLogin
        
    override func loadView() {
        isLogin ? super.loadView() : setupVisitorView()
@@ -46,6 +46,11 @@ extension BaseViewController {
     }
     @objc fileprivate func logInBtnClick() {
         print("-----logInBtnClick")
+        let oauthVC = OauthController()
+//        包装导航控制器
+        let oauthNav = UINavigationController(rootViewController: oauthVC)
+        oauthNav.modalPresentationStyle = .fullScreen
+        present(oauthNav, animated: true, completion: nil)
         
     }
 }

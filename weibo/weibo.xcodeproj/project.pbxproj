@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4443E8B224E3897D00A83C19 /* WelComeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8B024E3897D00A83C19 /* WelComeController.swift */; };
+		4443E8B324E3897D00A83C19 /* WelComeController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4443E8B124E3897D00A83C19 /* WelComeController.xib */; };
+		4443E8B624E623E900A83C19 /* StatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8B524E623E900A83C19 /* StatusModel.swift */; };
+		4443E8B824E6336C00A83C19 /* Date-Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8B724E6336C00A83C19 /* Date-Extention.swift */; };
+		4443E8BA24E6369E00A83C19 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8B924E6369E00A83C19 /* UserModel.swift */; };
+		4443E8BC24E77A7300A83C19 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8BB24E77A7300A83C19 /* StatusViewModel.swift */; };
+		4443E8BE24E7813500A83C19 /* HomeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4443E8BD24E7813500A83C19 /* HomeViewCell.swift */; };
 		44D22DA624CAE19B00EA7D0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DA524CAE19B00EA7D0A /* AppDelegate.swift */; };
 		44D22DAD24CAE19B00EA7D0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DAB24CAE19B00EA7D0A /* Main.storyboard */; };
 		44D22DAF24CAE19E00EA7D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44D22DAE24CAE19E00EA7D0A /* Assets.xcassets */; };
@@ -32,10 +39,22 @@
 		44D22DFB24CD1CA700EA7D0A /* PresentationContrller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DFA24CD1CA700EA7D0A /* PresentationContrller.swift */; };
 		44D22DFD24CD290400EA7D0A /* PoperAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */; };
 		44D22E2324CD3D7300EA7D0A /* NetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22E2224CD3D7300EA7D0A /* NetworkTools.swift */; };
+		44D22E3324CE7BB000EA7D0A /* OauthController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22E3124CE7BB000EA7D0A /* OauthController.swift */; };
+		44D22E3424CE7BB000EA7D0A /* OauthController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44D22E3224CE7BB000EA7D0A /* OauthController.xib */; };
+		44D22E3624CE807F00EA7D0A /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22E3524CE807F00EA7D0A /* Common.swift */; };
+		44D22E3824D84CEC00EA7D0A /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22E3724D84CEC00EA7D0A /* UserAccount.swift */; };
+		44D22E3A24DA999A00EA7D0A /* UserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44D22E3924DA999A00EA7D0A /* UserAccountViewModel.swift */; };
 		866AA1CCDC0DE7E625A6D709 /* Pods_weibo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E53EC89964BDDE2EFA8129A /* Pods_weibo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4443E8B024E3897D00A83C19 /* WelComeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelComeController.swift; sourceTree = "<group>"; };
+		4443E8B124E3897D00A83C19 /* WelComeController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelComeController.xib; sourceTree = "<group>"; };
+		4443E8B524E623E900A83C19 /* StatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusModel.swift; sourceTree = "<group>"; };
+		4443E8B724E6336C00A83C19 /* Date-Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date-Extention.swift"; sourceTree = "<group>"; };
+		4443E8B924E6369E00A83C19 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4443E8BB24E77A7300A83C19 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		4443E8BD24E7813500A83C19 /* HomeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewCell.swift; sourceTree = "<group>"; };
 		44D22DA224CAE19B00EA7D0A /* weibo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weibo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44D22DA524CAE19B00EA7D0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		44D22DAC24CAE19B00EA7D0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,6 +82,11 @@
 		44D22DFA24CD1CA700EA7D0A /* PresentationContrller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationContrller.swift; sourceTree = "<group>"; };
 		44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoperAnimator.swift; sourceTree = "<group>"; };
 		44D22E2224CD3D7300EA7D0A /* NetworkTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkTools.swift; sourceTree = "<group>"; };
+		44D22E3124CE7BB000EA7D0A /* OauthController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OauthController.swift; sourceTree = "<group>"; };
+		44D22E3224CE7BB000EA7D0A /* OauthController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OauthController.xib; sourceTree = "<group>"; };
+		44D22E3524CE807F00EA7D0A /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		44D22E3724D84CEC00EA7D0A /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		44D22E3924DA999A00EA7D0A /* UserAccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccountViewModel.swift; sourceTree = "<group>"; };
 		4A83A30D9A1A436C04020A10 /* Pods-weibo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibo.release.xcconfig"; path = "Target Support Files/Pods-weibo/Pods-weibo.release.xcconfig"; sourceTree = "<group>"; };
 		9E53EC89964BDDE2EFA8129A /* Pods_weibo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weibo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE5A44F1EB4899E4A416573 /* Pods-weibo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weibo.debug.xcconfig"; path = "Target Support Files/Pods-weibo/Pods-weibo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -87,6 +111,25 @@
 				4A83A30D9A1A436C04020A10 /* Pods-weibo.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		4443E8AF24E3896400A83C19 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				4443E8B024E3897D00A83C19 /* WelComeController.swift */,
+				4443E8B124E3897D00A83C19 /* WelComeController.xib */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		4443E8B424E6238F00A83C19 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4443E8B524E623E900A83C19 /* StatusModel.swift */,
+				4443E8B924E6369E00A83C19 /* UserModel.swift */,
+				4443E8BB24E77A7300A83C19 /* StatusViewModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		44D22D9924CAE19B00EA7D0A = {
@@ -137,6 +180,7 @@
 		44D22DBA24CAE43800EA7D0A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				4443E8B424E6238F00A83C19 /* Model */,
 				44D22DCE24CAE63A00EA7D0A /* Home.storyboard */,
 				44D22DBB24CAE43800EA7D0A /* Controller */,
 				44D22DBD24CAE43800EA7D0A /* View */,
@@ -155,17 +199,11 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		44D22DBC24CAE43800EA7D0A /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		44D22DBD24CAE43800EA7D0A /* View */ = {
 			isa = PBXGroup;
 			children = (
 				44D22DFC24CD290400EA7D0A /* PoperAnimator.swift */,
+				4443E8BD24E7813500A83C19 /* HomeViewCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -272,6 +310,8 @@
 		44D22DCA24CAE43800EA7D0A /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				4443E8AF24E3896400A83C19 /* Welcome */,
+				44D22E3024CE7B9700EA7D0A /* Oauth */,
 				44D22DCB24CAE43800EA7D0A /* Controller */,
 				44D22DCC24CAE43800EA7D0A /* Model */,
 				44D22DCD24CAE43800EA7D0A /* View */,
@@ -308,8 +348,8 @@
 			isa = PBXGroup;
 			children = (
 				44D22E2224CD3D7300EA7D0A /* NetworkTools.swift */,
-				44D22DBC24CAE43800EA7D0A /* Model */,
 				44D22DE124CAEB5700EA7D0A /* Category */,
+				44D22E3524CE807F00EA7D0A /* Common.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -320,6 +360,7 @@
 				44D22DE224CAEBC200EA7D0A /* UIButton-Extention.swift */,
 				44D22DF024CD0E4C00EA7D0A /* UIBarButtonItem-Extention.swift */,
 				44D22DF224CD110C00EA7D0A /* TitleBtn.swift */,
+				4443E8B724E6336C00A83C19 /* Date-Extention.swift */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -330,6 +371,17 @@
 				44D22DE724CAECB700EA7D0A /* AddWB.storyboard */,
 			);
 			path = AddWB;
+			sourceTree = "<group>";
+		};
+		44D22E3024CE7B9700EA7D0A /* Oauth */ = {
+			isa = PBXGroup;
+			children = (
+				44D22E3124CE7BB000EA7D0A /* OauthController.swift */,
+				44D22E3224CE7BB000EA7D0A /* OauthController.xib */,
+				44D22E3724D84CEC00EA7D0A /* UserAccount.swift */,
+				44D22E3924DA999A00EA7D0A /* UserAccountViewModel.swift */,
+			);
+			path = Oauth;
 			sourceTree = "<group>";
 		};
 		89C8C3277D9B6956D4B1C43D /* Frameworks */ = {
@@ -400,7 +452,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D22E3424CE7BB000EA7D0A /* OauthController.xib in Resources */,
 				44D22DB224CAE19E00EA7D0A /* LaunchScreen.storyboard in Resources */,
+				4443E8B324E3897D00A83C19 /* WelComeController.xib in Resources */,
 				44D22DE924CAECB700EA7D0A /* AddWB.storyboard in Resources */,
 				44D22DAF24CAE19E00EA7D0A /* Assets.xcassets in Resources */,
 				44D22DD224CAE66800EA7D0A /* Message.storyboard in Resources */,
@@ -462,14 +516,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44D22E3624CE807F00EA7D0A /* Common.swift in Sources */,
 				44D22DF324CD110C00EA7D0A /* TitleBtn.swift in Sources */,
 				44D22DE324CAEBC200EA7D0A /* UIButton-Extention.swift in Sources */,
+				4443E8B624E623E900A83C19 /* StatusModel.swift in Sources */,
+				4443E8B824E6336C00A83C19 /* Date-Extention.swift in Sources */,
 				44D22E2324CD3D7300EA7D0A /* NetworkTools.swift in Sources */,
 				44D22DE524CAEC1E00EA7D0A /* MainController.swift in Sources */,
+				44D22E3A24DA999A00EA7D0A /* UserAccountViewModel.swift in Sources */,
+				4443E8BA24E6369E00A83C19 /* UserModel.swift in Sources */,
+				4443E8B224E3897D00A83C19 /* WelComeController.swift in Sources */,
 				44D22DA624CAE19B00EA7D0A /* AppDelegate.swift in Sources */,
+				44D22E3824D84CEC00EA7D0A /* UserAccount.swift in Sources */,
+				44D22E3324CE7BB000EA7D0A /* OauthController.swift in Sources */,
 				44D22DDB24CAE77200EA7D0A /* DiscoveryViewController.swift in Sources */,
 				44D22DDF24CAE78E00EA7D0A /* ProfileViewController.swift in Sources */,
 				44D22DEB24CC279E00EA7D0A /* BaseViewController.swift in Sources */,
+				4443E8BC24E77A7300A83C19 /* StatusViewModel.swift in Sources */,
+				4443E8BE24E7813500A83C19 /* HomeViewCell.swift in Sources */,
 				44D22DED24CC297A00EA7D0A /* VisitorView.swift in Sources */,
 				44D22DDD24CAE77C00EA7D0A /* MessageViewController.swift in Sources */,
 				44D22DFD24CD290400EA7D0A /* PoperAnimator.swift in Sources */,
@@ -648,7 +712,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V2KP2TYG;
 				INFOPLIST_FILE = weibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -668,7 +732,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 73V2KP2TYG;
 				INFOPLIST_FILE = weibo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -14,8 +14,4 @@ class PoperViewController: UIViewController {
         super.viewDidLoad()
 
     }
-
-
-  
-
 }

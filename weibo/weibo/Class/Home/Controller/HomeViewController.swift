@@ -6,9 +6,10 @@
 //  Copyright © 2020 2020. All rights reserved.
 //
 
+
 import UIKit
 class HomeViewController: BaseViewController {
-
+    fileprivate lazy var statusesViewModel : [StatusViewModel] = [StatusViewModel]()
     //MARK: ------- 懒加载
     fileprivate lazy var titleBtn : TitleBtn = TitleBtn()
     
@@ -26,21 +27,14 @@ class HomeViewController: BaseViewController {
             return
         }
         setUpNavgationBar()
+        
+        loadStatues()
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.estimatedRowHeight = 200
        
     }
  
 
-    // MARK: - Table view data source
-
-    override func numberOfSections(in tableView: UITableView) -> Int {
-        // #warning Incomplete implementation, return the number of sections
-        return 0
-    }
-
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
-    }
 }
 
 //MARK: ------- 设置导航栏按钮
@@ -71,3 +65,38 @@ extension HomeViewController {
 }
 
 
+
+extension HomeViewController {
+    fileprivate func loadStatues() {
+        NetworkTools.shareInstance.loadStatuses { (result, error) in
+            if error != nil {
+                print(error ?? "")
+                return
+            }
+            guard let resultArr = result else {
+                return
+            }
+            for dict in resultArr {
+                let status = StatusModel(dict: dict)
+                let viewModel = StatusViewModel(status: status)
+                self.statusesViewModel.append(viewModel)
+            }
+            self.tableView.reloadData()
+        }
+    }
+}
+
+//MARK: ------- tableView datasourceDelegate
+extension HomeViewController {
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return statusesViewModel.count
+    }
+    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "HomeCellId", for: indexPath) as! HomeViewCell
+        cell.viewModel = statusesViewModel[indexPath.row]
+        return cell
+    }
+//    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+//        return 300
+//    }
+}
